@@ -1,0 +1,10 @@
+
+.stdCourseCardDiv{
+    display: flex;
+    align-items: start; 
+    border: var(--border);
+    height: auto;
+    width: 100%;
+    flex-wrap: wrap;
+    /* overflow-wrap: break-word; */
+}

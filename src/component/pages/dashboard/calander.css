@@ -1,0 +1,30 @@
+.MuiDateCalendar-root{
+/* height: 100%;
+width:  100%; */
+padding: 0px;
+margin: 0px;
+background-color: var(--white);
+border-radius: 20px;
+box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+/* border: 2px solid black; */
+height: 300px;
+width: 200px;
+}
+.MuiPickersCalendarHeader-root{
+    padding: 0px;
+    margin: 0px;
+    height: 100%;
+width:  100%;
+}
+.MuiPickersFadeTransitionGroup-root{
+    padding: 0px;
+    margin: 0px;
+    /* height: 300px; */
+    /* width: 300px; */
+}
+.MuiPickersCalendarHeader-labelContainer-root{
+    margin-right: 0px;
+}
+.MuiButtonBase-root{
+    font-size: 12px;
+}

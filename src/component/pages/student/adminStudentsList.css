@@ -1,0 +1,153 @@
+
+.main-std-list-div{
+    border: var(--border);
+    display: flex;
+    padding: 1.5rem 2rem;
+    background-color: var(--white);
+    margin-top: 1rem;
+    border-radius: 1.2rem;
+    
+    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+    transition: .1s;
+    width: 100%;
+    /* border: 2px solid black; */
+}
+.main-std-list-div:hover{
+    box-shadow: 0px 10px 15px -3px rgba(90, 90, 90, 0.3);
+  transform: translateY(-1px);
+}
+.main-std-list-div:hover .std-list-div-content-bottom-course{
+    color: var(--purple);
+}
+.main-std-list-div1{
+    border: var(--border);
+    /* display: inline-block; */
+    width: 70%;
+    display: flex;
+    align-items: center;
+
+}
+.std-list-div-icon{
+ padding: 1.3rem;
+ background-color: var(--darkWhite);
+ color: var(--purple);
+}
+.std-list-div-content{
+    margin-left: 2rem;
+}
+.std-list-div-head{
+    border: var(--border);
+    font-weight: 400;
+    font-size: 1.3rem;
+    padding: .4rem 0rem;
+}
+.std-list-div-badges{
+    border: var(--border);
+    padding: .4rem 0rem;
+
+}
+.badge{
+    display: flex;
+    align-items: center;
+    background-color: rgba(250, 210, 210, 0.549);
+    color: rgba(243, 18, 18, 0.685);
+    font-size: .8rem;
+    margin-left: 1rem;
+    padding: 0rem .8rem;
+    border-radius: 5px;
+}
+.std-list-div-content-bottom{
+    border: var(--border);
+    padding: .6rem 0rem;
+    color: var(--grey);
+    font-weight: 500;
+    font-size: .9rem;
+}
+.std-list-div-content-bottom-course{
+    display: flex;
+    align-items: center;
+    transition: .6s;
+}
+.line{
+   
+    /* border: 3px solid red; */
+    height: 2px;
+    width: 2rem;
+    margin-left: .8rem;
+    margin-right: .8rem;
+    background-color: var(--grey);
+}
+
+
+
+.std-list-div-content-top{
+    display: flex;
+}
+.std-list-div-badges{
+    display: flex;
+}
+.main-std-list-div2{
+    border: var(--border);
+    /* display: inline-block; */
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: center;
+    flex: 1;
+}
+.std-list-div-Action-div{
+    display: flex;
+    border: var(--border);
+    justify-content: end;
+    background-color: var(--darkWhite);
+    padding: 0rem .8rem;
+    border-radius: .6rem;
+    transition: .6s;
+
+}
+.std-list-div-Action-div:hover{
+ background-color: var(--purple);   
+ cursor: pointer;
+ /* color: white; */
+}
+.std-list-div-Action-div:hover .std-list-div-Action-head{
+    color: white;
+}
+.std-list-div-Action-div:hover .std-list-div-Action-icon{
+    color: white;
+}
+.std-list-div-Action-head{
+    border: var(--border);
+    
+    color: var(--grey);
+    font-weight: 600;
+    font-size: 1rem;
+    padding: .4rem 0rem;
+    margin-right: .4rem;
+    transition: .6s;
+
+}
+.std-list-div-Action-icon{
+    border: var(--border);
+    display: flex;
+    align-items: center;
+    color: var(--grey);
+    font-weight: bold;
+    font-size: 1rem;
+    transition: .6s;
+
+}
+.std-list-div-icon i{
+    font-size: 1.5rem;
+font-weight: 600;
+}
+.std-list-div-date{
+    border: var(--border);
+    display: flex;
+    /* justify-content: end; */
+    
+    padding-top: 1.2rem ;
+    color: var(--grey);
+    font-weight: 500;
+    font-size: .9rem;
+}

@@ -1,0 +1,85 @@
+.navbar{
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 3.5rem;
+    width: 78%;
+    border: var(--border);
+    z-index: 100;
+    background-color: var(--white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navContent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    border: var(--border);
+    padding: .5rem 3rem;
+}
+.nav-input-div{
+display: flex;
+align-items: center;
+width: auto;
+border: var(--border);
+}
+.search-icon{
+    display: flex;
+    align-items: center;
+    color: var(--grey);
+    margin-right: 1rem;
+    font-size: .3rem;
+
+}
+.search-icon i{
+ font-size: 1.2rem;
+ font-weight: 500;
+}
+
+.nav-input input{
+    color: var(--grey);
+    outline: none;
+    border: 0px;
+  }
+  ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: var(--grey);
+    font-size: .8rem;
+    font-weight: 600;
+    letter-spacing: .7px;
+  }
+  ::-moz-placeholder { /* Firefox 19+ */
+    color: var(--grey);
+  }
+  :-ms-input-placeholder { /* IE 10+ */
+    color: var(--grey);
+  }
+  :-moz-placeholder { /* Firefox 18- */
+    color: var(--grey);
+  }
+  
+
+.nav-iconAndName-div{
+    display: flex;
+}
+.nav-icon-div{
+    display: flex;
+align-items: center;
+    border: var(--border);
+    color: var(--grey);
+    color: black;
+    margin-right: 1rem;
+    font-size: .3rem;
+}
+
+.nav-icon-div i{
+ font-size: 1.2rem;
+ font-weight: 500;
+}
+.nav-name-div{
+    display: flex;
+align-items: center;
+    border: var(--border);
+    font-weight: 500;
+}

@@ -1,0 +1,64 @@
+
+.AdminCourseCardDiv{
+    display: flex;
+    align-items: start; 
+    border: var(--border);
+    height: auto;
+    width: 100%;
+    flex-wrap: wrap;
+    /* overflow-wrap: break-word; */
+}
+.dialog-div{
+    /* padding: 8rem; */
+    width:1000px;
+    border: var(--border);
+}
+.dialog-head{
+    border: var(--border);
+    margin-bottom: 3rem;
+    margin-top: 6rem;
+    margin-right: 6rem;
+    margin-left: 6rem;
+}
+.dialog-fields{
+    border: var(--border);
+    display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 2rem;
+  margin-right: 6rem;
+  margin-left: 6rem;
+  margin-bottom: 4rem;
+}
+.dialog-field{
+    border: var(--border);
+    /* width: 50%; */
+}
+
+.dialog-action{
+    border: var(--border);
+    display: flex;
+    justify-content: end;
+    padding: 1.5rem;
+}
+.btn{
+border: var(--border);
+padding: .4rem 1.5rem;
+margin-left: 0.8rem;
+border-radius: 4px;
+cursor: pointer;
+}
+.cancel-btn{
+    background-color: var(--darkWhite);
+color: var(--purple);
+}
+.save-btn{
+    background-color: var(--purple);
+color: var(--white);
+}
+.loading-spinner{
+    /* position: fixed;
+    height: 100vh;
+    width: 100%;
+    background-color: var(--white);
+    z-index: 1000; */
+}

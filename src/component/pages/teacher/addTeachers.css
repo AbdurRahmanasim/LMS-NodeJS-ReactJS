@@ -1,0 +1,9 @@
+.dialog-dropdown{
+    border: var(--border);
+    margin-left: 6rem;
+    margin-right: 6rem;
+    margin-bottom: .5rem;
+}
+.dialog-dropdown select{
+    width: auto;
+}

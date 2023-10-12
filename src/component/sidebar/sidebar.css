@@ -1,0 +1,87 @@
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  /* width: 320px; */
+  width: 22%;
+  background-color: #fff;
+  border: var(--border);
+  border-right: .5px solid rgba(231, 231, 231, 0.857);
+}
+.sidebar__logo {
+    display: flex;
+    align-items: center;
+    padding-left: 5rem;
+  /* display: grid; */
+  /* place-items: center; */
+  height: 120px;
+  font-size: 1.5rem;
+  font-weight: 700;
+  font-family: "Mochiy Pop P one", sans-serif;
+  border: var(--border);
+}
+
+.sidebar__menu {
+  position: relative;
+  border: var(--border);
+  padding-top: 2rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+    transition: .8s;
+
+
+}
+.sidebar__menu__item {
+    /* padding-top: .5rem; */
+  display: flex;
+  align-items: center;
+  place-content: flex-start;
+  padding: 1rem 2rem;
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: var(--grey);
+  /* background-color: var(-); */
+  transition: .6s;
+  border: var(--border);
+  margin-bottom: 1rem;
+  /* padding-top: 2rem; */
+
+}
+.active{
+  transition: .8s;
+
+}
+.sidebar__menu__item:hover{
+    color: var(--purple);
+}
+.sidebar__menu__item.active {
+    color: var(--white);
+    background-color: var(--purple);
+    border-radius: .6rem;
+    transition: .8s;
+}
+
+.sidebar__menu__item__icon {
+  margin-right: 1.5rem;
+}
+i {
+  font-size: 1.5rem;
+}
+.sidebar__menu__item__text{
+    
+}
+
+/* .sidebar__menu__indicator 
+{
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: calc(100% - 50px);
+  border-radius: 10px;
+  background-color: #308efe;
+  z-index: -1;
+  transform: translateX(-50%);
+  transition: 0.3s ease-in-out;
+
+} */
